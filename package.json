@@ -1,0 +1,15 @@
+{
+  "name": "advent2021",
+  "description": "Let's go!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gingertonic/advent-of-code-2021.git"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.11"
+  }
+}

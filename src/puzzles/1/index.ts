@@ -1,6 +1,8 @@
 import { RunnerFunc } from '../../'
+import testData from './testData'
 
-export const run: RunnerFunc = (data: string): string  => {
+export const run: RunnerFunc = (data: string | undefined): string  => {
+    data ||= testData
     const input = transformData(data)
     const increases: number = countIncreases(input)
     return increases.toString();

@@ -30,6 +30,7 @@ async function start(args: any[]):Promise<void> {
         console.log(`${puzzle.pid} part 1 answer is: ${puzzle.outputP1}`)
         console.log(`${puzzle.pid} part 2 answer is: ${puzzle.outputP2}`)
     } catch (e) {
+        console.log(e);
         console.log('That puzzle is not available yet!');
     }
 }
